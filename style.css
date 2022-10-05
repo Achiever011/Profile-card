@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+}
+
+body{
+    padding: 5px 10px;
+    width:100%;
+    margin-bottom: 0px;
+    background-color: #fff;
+}   
+.background-image{
+    background-color: hsl(185, 75%, 39%) ;
+    scale: 0.8;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.background-image img{
+    width: 100%;
+}
+
+.background-image.one{
+    scale: 1.6;
+    width: 50%;
+    transform: translate(-20%,-30%);
+    float: left;
+}
+
+.background-image.two{
+    scale: 1.5;
+    max-height: 100%;
+    width: 50%;
+    transform: translate(10%,45%);
+    float: right;
+}
+
+.container{
+    /*
+        position: absolute
+        top: 35%;
+        left: 35%;
+    */
+    scale: 0.8;
+    position: absolute;
+    top: 0%;
+    left: 47%; 
+    transform : translate(-50%, 50%);
+    width: 300px;
+    height: 330px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0;
+}
+
+.reactions{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    display: flex;
+    justify-content:center;
+    gap: 20%;
+}
+
+.grey-color.one{
+    letter-spacing: 1.5px;
+    padding: 0;
+    position: relative;
+    bottom: 90%;
+    top: -15px;
+    font-size:12px ;
+    font-weight: 400;
+}
+
+
+.top-image{
+    
+    width: 100%;
+}
+.top-image img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.profile-pic{
+    position:absolute;
+    right: 33%;
+    top: 20%;
+    border: 3px solid #fff;
+    border-radius: 60%;
+    background-color: #fff;
+
+}
+.profile-pic img{
+    border-radius: 50%
+}
+.name{
+    position: absolute;
+    top: 54%;
+    left:30%;
+}
+.name h1{
+    margin-bottom: 0;
+}
+
+hr{
+    margin-top: 120px;
+    width: 100%;
+    
+    
+    color: rgb(132, 125, 125);
+}
+
+p{
+    margin: 0;
+}
+
+.grey-color{
+    color:hsl(229, 23%, 23%) ;
+    font-weight: 400;
+    padding-top: 60px;
+}
+.grey-color.london{
+    position:relative;
+    top: 5px;
+}
+
+/* Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%) */
